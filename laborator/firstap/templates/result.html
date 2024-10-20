@@ -1,0 +1,28 @@
+<!-- templates/result.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Результаты</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <div>
+            <div>
+                <h2 class="row g-3">Чел:</h2>
+            </div>
+            <div class="row g-3">
+                <h5 class="card-text">Имя: {{ name }}</h5>
+                <p class="card-text">Возврат: {{ age }}</p>
+                <p class="card-text">Живой: {{ basket }}</p>
+                <p class="card-text">Email: {{ email }}</p>
+                <p class="card-text">URL: {{ url_text }}</p>
+                <p class="card-text">Файл: {{ file_path }}</p>
+                <p class="card-text">Regex: {{ regex }}</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

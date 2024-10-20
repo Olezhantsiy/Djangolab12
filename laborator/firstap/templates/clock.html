@@ -1,0 +1,26 @@
+
+<!DOCTYPE HTML>
+{% load static %}
+<html>
+
+  <head>
+    <title>Часы</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="{% static 'clock.css' %}"/>
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+    <script src="{% static 'clock.js' %}"></script>
+</head>
+
+  <body onload="clockTimer();">
+
+
+     <div class="clockpage" id="id_clock"></div>
+    <script>digitalClock();</script>
+    <div class="link">
+      <a href="http://127.0.0.1:8000/">НАЖИМАЙ</a>
+     </div>
+
+
+
+
+  </body>
